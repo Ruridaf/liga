@@ -1,0 +1,133 @@
+body{
+    background-color: #006494;
+    text-align: center;
+}
+
+form, h2, h1{
+    text-align: center;
+}
+
+
+h1{
+    font-size: 40px;
+    color: #E8F1F2;
+}
+
+h2{
+    font-size: 30px;
+    margin-top: 0px;
+}
+
+h4{
+    margin: 15px 0px;
+}
+
+p{
+    margin: 15px 0px;
+}
+
+input[type='number'], input[type='text'], input[type='password']{
+    padding: 4px;
+    border-radius: 5px;
+    border-style: solid;
+    text-align: center;
+}
+
+.caixa{
+    background-color: #E8F1F2;
+    /* width: fit-content; */
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 30px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 25px;
+}
+
+/* input[type='radio']{
+    border: 3px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+label{
+    font-size: 18px;
+} */
+
+.radios{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    /* gap: 15px; */
+}
+
+.radios label{
+    font-size: 13px;
+}
+
+button, input[type="submit"]{
+    transition-duration: .5s;
+    font-size: 14px;
+}
+button:hover, input[type="submit"]:hover{
+    padding: 5px 10px;
+    background-color: #006594da;
+    color: #E8F1F2;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    
+}
+
+button{
+    /* width: 130px; */
+    cursor: pointer;
+}
+
+
+
+.caixa_2{
+    margin-top: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 20px;
+    
+    /* width: 250px; */
+}
+
+table{
+    border: 3px solid #006494;
+    width: 450px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+table button{
+    width: fit-content;
+}
+
+th, td{
+    border: 1px solid #006494;
+    font-size: 20px;
+    text-align: center;
+}
+
+tr:hover:not(:first-child){ /* nao actua no 1ºfilho */
+    background-color: #0065943b;
+}
+
+li{
+    padding-bottom: 5px;
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
